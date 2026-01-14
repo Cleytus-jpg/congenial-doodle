@@ -1,0 +1,18 @@
+{
+  "name": "congenial-doodle",
+  "version": "1.0.0",
+  "description": "Game with endless wave mechanics",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8080 -o",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": ["game", "wave-manager"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
